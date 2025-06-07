@@ -1,0 +1,78 @@
+.body {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-family: "Roboto", "sans-serif";
+    height: 100vh;
+    margin: 0;
+
+}
+
+.Container {
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.linkedin-heading {
+    color: #0072b1;
+    font-size: 30px;
+}
+
+.in {
+    padding: 6px;
+    background-color: #0072b1;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.linkedin-signIn {
+    color: #000;
+    font-size: 35px;
+}
+
+.linkedin-description {
+    color: #000;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0072b1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    color: #fff;
+    background-color: #0072b1;
+    width: 100%;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px;
+}
